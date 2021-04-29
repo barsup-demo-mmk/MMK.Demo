@@ -1,0 +1,11 @@
+﻿{
+  "$type": "BarsUp.Designer.Data.Entity, BarsUp.Designer.Data",
+  "BaseType": "BarsUp.DataAccess.BaseEntity, BarsUp.Abstractions.DataAccess",
+  "DescriptorUid": "B4.Rms.Descriptor.Entity",
+  "Display": "Организация",
+  "Indices": [],
+  "Name": "Organization",
+  "NameForDatabase": "ORGANIZATION",
+  "SubclassKind": 1,
+  "Uid": "1695d54f-1a64-478f-bc05-ec706b8cf167"
+}

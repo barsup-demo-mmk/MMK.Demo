@@ -49,7 +49,7 @@
       "Configuration": {
         "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
         "AppSettings": [],
-        "DbName": "app_mmk.demo",
+        "DbName": "app_mmk_demo",
         "DbPassword": "123",
         "DbPort": 5432,
         "DbServer": "localhost",
@@ -59,14 +59,36 @@
         "Modules": [
           {
             "$type": "BarsUp.Designer.RmsPublicationProfileModuleConfig, BarsUp.Designer.Workspace",
-            "Display": "BarsUp.Modules.PostgreSql",
+            "Display": "BarsUp.UI.ExtJs",
             "Elements": [
               {
                 "$type": "BarsUp.Designer.RmsAppSettingsElement, BarsUp.Designer.Workspace",
-                "Display": "ForeignServers",
-                "Value": "{}"
+                "Display": "Theme",
+                "Value": "Light"
               }
             ]
+          },
+          {
+            "$type": "BarsUp.Designer.RmsPublicationProfileModuleConfig, BarsUp.Designer.Workspace",
+            "Description": "Модуль для построения файлового хранилища, используя для хранения файловую систему",
+            "Display": "BarsUp.Modules.FileSystemStorage",
+            "Elements": [
+              {
+                "$type": "BarsUp.Designer.RmsAppSettingsElement, BarsUp.Designer.Workspace",
+                "Description": "Каталог в котором хранятся файлы",
+                "Display": "FileDirectory",
+                "Type": {
+                  "CollectionType": null,
+                  "KeyType": null,
+                  "Name": "System.String",
+                  "Properties": null
+                },
+                "Uid": "92ae19be-3257-4217-85ea-e95fc6dceb08",
+                "Value": ".files"
+              }
+            ],
+            "Name": "RmsPublicationProfileModuleConfig1619717838196",
+            "Uid": "71c470d1-ada4-4066-8e6a-961be52ca0a9"
           }
         ]
       },
@@ -84,7 +106,8 @@
           },
           "Display": "IIS",
           "Host": "rms.bars.group",
-          "IisSiteName": "Default Web Site",
+          "IisSiteName": "Applications",
+          "IisWebDeployPort": 5000,
           "Name": "IIS",
           "Password": "yqzGAHWUKyjfX4Nd",
           "Uid": "d150febb-6124-4a80-873c-5991437991f9",

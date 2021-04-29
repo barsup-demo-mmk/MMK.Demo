@@ -2,7 +2,62 @@
   "$type": "BarsUp.Designer.View.ModuleMenu, BarsUp.Designer.View",
   "DescriptorUid": "B4.Rms.Descriptor.ModuleMenu",
   "Display": "Главное меню",
-  "ItemsMenu": [],
+  "ItemsMenu": [
+    {
+      "$type": "BarsUp.Designer.View.ModuleMenuItem, BarsUp.Designer.View",
+      "Display": "Справочники",
+      "IconCls": "fad fa-book-alt",
+      "IsGroup": true,
+      "ItemsMenu": [
+        {
+          "$type": "BarsUp.Designer.View.ModuleMenuItem, BarsUp.Designer.View",
+          "Display": "НПА",
+          "ElementType": "BarsUp.Designer.View.Registry, BarsUp.Designer.View",
+          "ExternalElementHash": "NpaList",
+          "ExternalElementUid": "c7123d09-a98a-41b8-9e4e-b37c9912d8e6",
+          "IconCls": "far fa-book",
+          "IsGroup": false,
+          "ItemsMenu": [],
+          "PermissionCompositionType": 0,
+          "PermissionsList": [],
+          "Type": 17,
+          "Uid": "6a57664b-679a-4070-831b-7c4596d464ee"
+        }
+      ],
+      "PermissionCompositionType": 0,
+      "PermissionsList": [],
+      "Type": 21,
+      "Uid": "9189744a-bd56-4de0-9523-8f519a73556d"
+    },
+    {
+      "$type": "BarsUp.Designer.View.ModuleMenuItem, BarsUp.Designer.View",
+      "Display": "Организации",
+      "ElementType": "BarsUp.Designer.View.Registry, BarsUp.Designer.View",
+      "ExternalElementHash": "OrganizationList",
+      "ExternalElementUid": "85f7b98e-c49a-4775-bd59-31196a1e1563",
+      "IconCls": "fas fa-building",
+      "IsGroup": false,
+      "ItemsMenu": [],
+      "PermissionCompositionType": 0,
+      "PermissionsList": [],
+      "Type": 17,
+      "Uid": "1eea83a4-cefe-4d71-abb3-1b2f82d7fabd"
+    },
+    {
+      "$type": "BarsUp.Designer.View.ModuleMenuItem, BarsUp.Designer.View",
+      "Display": "Документы",
+      "ElementType": "BarsUp.Designer.View.Registry, BarsUp.Designer.View",
+      "ExternalElementHash": "DocumentList",
+      "ExternalElementUid": "ebaf880d-d5fd-410d-b45a-9c19ddaacf40",
+      "IconCls": "fad fa-list",
+      "IsGroup": false,
+      "ItemsMenu": [],
+      "PermissionCompositionType": 0,
+      "PermissionsList": [],
+      "Type": 17,
+      "Uid": "a60b56be-d8f8-4e4b-8745-d5da7e2003c1"
+    }
+  ],
   "Name": "MainMenu",
   "Uid": "6ae1a4c2-4644-4f1c-bc8d-551d220e218b"
 }

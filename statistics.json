@@ -3,9 +3,9 @@
     "Серверный код": {
       "CustomFilesCount": 10,
       "CustomLinesCount": 251,
-      "FilesRate": 8,
-      "GeneratedFilesCount": 81,
-      "GeneratedLinesCount": 5068,
+      "FilesRate": 9,
+      "GeneratedFilesCount": 91,
+      "GeneratedLinesCount": 5247,
       "LinesRate": 20
     },
     "Браузерный код": {
@@ -13,8 +13,8 @@
       "CustomLinesCount": 0,
       "FilesRate": 61,
       "GeneratedFilesCount": 61,
-      "GeneratedLinesCount": 4326,
-      "LinesRate": 4326
+      "GeneratedLinesCount": 4338,
+      "LinesRate": 4338
     },
     "СУБД": {
       "CustomFilesCount": 0,

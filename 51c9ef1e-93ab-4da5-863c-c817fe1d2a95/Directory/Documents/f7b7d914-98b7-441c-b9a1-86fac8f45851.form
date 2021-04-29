@@ -83,13 +83,7 @@
               "Value": 1.0
             }
           ]
-        }
-      ],
-      "Uid": "72ca8f16-3610-4fd6-93cb-c40772a6c0e4"
-    },
-    {
-      "$type": "BarsUp.Designer.View.Forms.Containers.HorizontalContainer, BarsUp.Designer.View",
-      "Elements": [
+        },
         {
           "$type": "BarsUp.Designer.View.Forms.Containers.VerticalContainer, BarsUp.Designer.View",
           "Elements": [
@@ -101,6 +95,7 @@
               "Attributes": []
             }
           ],
+          "Events": [],
           "Uid": "8fc836fb-bfd8-4408-999e-79ef95985c34",
           "Attributes": [
             {
@@ -122,11 +117,14 @@
             {
               "$type": "BarsUp.Designer.View.Attributes.FlexControlAttribute, BarsUp.Designer.View",
               "Value": 1.0
+            },
+            {
+              "$type": "BarsUp.Designer.View.Attributes.IgnoreMakeInactiveControlAttribute, BarsUp.Designer.View"
             }
           ]
         }
       ],
-      "Uid": "9f523f31-6f00-43cc-9b30-01f3f93b9f16"
+      "Uid": "72ca8f16-3610-4fd6-93cb-c40772a6c0e4"
     },
     {
       "$type": "BarsUp.Designer.View.Forms.Containers.HorizontalContainer, BarsUp.Designer.View",
@@ -156,6 +154,16 @@
                   "$type": "BarsUp.Designer.View.Attributes.IgnoreMakeInactiveControlAttribute, BarsUp.Designer.View"
                 },
                 {
+                  "$type": "BarsUp.Designer.View.Attributes.LabelAlignControlAttribute, BarsUp.Designer.View",
+                  "Value": 3
+                },
+                {
+                  "$type": "BarsUp.Designer.View.Attributes.PermissionFormControlAttribute, BarsUp.Designer.View",
+                  "PermissionAccessType": 0,
+                  "PermissionCompositionType": 0,
+                  "PermissionsList": []
+                },
+                {
                   "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklyRawTextSelectorAttribute, BarsUp.Designer.View",
                   "Actions": [],
                   "Data": {},
@@ -181,7 +189,6 @@
                     "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassFieldReference, BarsUp.Designer.Core",
                     "AbsoluteUid": "85f7b98e-c49a-4775-bd59-31196a1e1563$bddf5926-2e7f-4b1e-96a3-b4e1af25e68e",
                     "Display": "Краткое наименование",
-                    "Name": "ShortName",
                     "Uid": "bddf5926-2e7f-4b1e-96a3-b4e1af25e68e"
                   }
                 },
@@ -280,6 +287,12 @@
       "$type": "BarsUp.Designer.View.Attributes.IgnoreVersioningDisablingAttribute, BarsUp.Designer.View"
     },
     {
+      "$type": "BarsUp.Designer.View.Attributes.PermissionFormControlAttribute, BarsUp.Designer.View",
+      "PermissionAccessType": 0,
+      "PermissionCompositionType": 0,
+      "PermissionsList": []
+    },
+    {
       "$type": "BarsUp.Designer.View.Attributes.SubmitTimeoutAttribute, BarsUp.Designer.View",
       "Timeout": 20
     },
@@ -288,7 +301,9 @@
       "Value": false
     },
     {
-      "$type": "BarsUp.Designer.View.Attributes.WindowSizeAttribute, BarsUp.Designer.View"
+      "$type": "BarsUp.Designer.View.Attributes.WindowSizeAttribute, BarsUp.Designer.View",
+      "Height": 265,
+      "Width": 500
     }
   ]
 }

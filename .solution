@@ -40,7 +40,7 @@
     "Configuration": {
       "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
       "AppSettings": [],
-      "DbName": "app_mmk.demo",
+      "DbName": "app_mmk_demo",
       "DbPassword": "123",
       "DbPort": 5432,
       "DbServer": "localhost",
@@ -56,6 +56,17 @@
               "$type": "BarsUp.Designer.RmsAppSettingsElement, BarsUp.Designer.Workspace",
               "Display": "ForeignServers",
               "Value": "{}"
+            }
+          ]
+        },
+        {
+          "$type": "BarsUp.Designer.RmsPublicationProfileModuleConfig, BarsUp.Designer.Workspace",
+          "Display": "BarsUp.UI.ExtJs",
+          "Elements": [
+            {
+              "$type": "BarsUp.Designer.RmsAppSettingsElement, BarsUp.Designer.Workspace",
+              "Display": "Theme",
+              "Value": "Light"
             }
           ]
         }

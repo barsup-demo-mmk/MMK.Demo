@@ -1,20 +1,20 @@
 ﻿{
   "Code": {
     "Серверный код": {
-      "CustomFilesCount": 0,
-      "CustomLinesCount": 0,
-      "FilesRate": 1,
-      "GeneratedFilesCount": 0,
-      "GeneratedLinesCount": 0,
-      "LinesRate": 1
+      "CustomFilesCount": 10,
+      "CustomLinesCount": 251,
+      "FilesRate": 9,
+      "GeneratedFilesCount": 91,
+      "GeneratedLinesCount": 5202,
+      "LinesRate": 20
     },
     "Браузерный код": {
       "CustomFilesCount": 0,
       "CustomLinesCount": 0,
-      "FilesRate": 1,
-      "GeneratedFilesCount": 0,
-      "GeneratedLinesCount": 0,
-      "LinesRate": 1
+      "FilesRate": 61,
+      "GeneratedFilesCount": 61,
+      "GeneratedLinesCount": 4326,
+      "LinesRate": 4326
     },
     "СУБД": {
       "CustomFilesCount": 0,
@@ -87,7 +87,7 @@
       "IconCls": "pl fa-icons-menu"
     },
     "Меню модуля": {
-      "Count": 0,
+      "Count": 1,
       "IconCls": "fm-th-menu"
     },
     "Обработчик очереди": {
@@ -123,7 +123,7 @@
       "IconCls": "fm-shield2"
     },
     "Реестр": {
-      "Count": 0,
+      "Count": 3,
       "IconCls": "fm-table2"
     },
     "Сводная таблица": {
@@ -151,7 +151,7 @@
       "IconCls": "fas fa-cube"
     },
     "Сущность": {
-      "Count": 0,
+      "Count": 3,
       "IconCls": "fas fa-database"
     },
     "Форма": {
@@ -159,7 +159,7 @@
       "IconCls": "fal fa-mobile-android-alt"
     },
     "Форма редактирования": {
-      "Count": 0,
+      "Count": 3,
       "IconCls": "x16 fa-form"
     },
     "Фрейм": {

@@ -1,0 +1,11 @@
+﻿{
+  "$type": "BarsUp.Designer.Data.Entity, BarsUp.Designer.Data",
+  "BaseType": "BarsUp.DataAccess.BaseEntity, BarsUp.Abstractions.DataAccess",
+  "DescriptorUid": "B4.Rms.Descriptor.Entity",
+  "Display": "Документ",
+  "Indices": [],
+  "Name": "Document",
+  "NameForDatabase": "DOCUMENT",
+  "SubclassKind": 1,
+  "Uid": "c53fe72f-3e5a-41d9-9881-f89eba41163d"
+}

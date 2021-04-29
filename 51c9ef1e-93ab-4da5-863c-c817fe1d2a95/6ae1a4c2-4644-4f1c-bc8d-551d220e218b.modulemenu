@@ -1,0 +1,8 @@
+﻿{
+  "$type": "BarsUp.Designer.View.ModuleMenu, BarsUp.Designer.View",
+  "DescriptorUid": "B4.Rms.Descriptor.ModuleMenu",
+  "Display": "Главное меню",
+  "ItemsMenu": [],
+  "Name": "MainMenu",
+  "Uid": "6ae1a4c2-4644-4f1c-bc8d-551d220e218b"
+}

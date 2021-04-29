@@ -1,8 +1,154 @@
 ﻿{
   "$type": "BarsUp.Designer.Elements.CustomOverrides, BarsUp.Designer",
+  "CsOverrides": [],
   "DescriptorUid": "B4.Rms.Descriptor.CustomOverrides",
   "Display": "Кастомные переопределения",
   "IsHidden": true,
   "Name": "CustomOverrides",
+  "ScriptOverrides": [],
+  "Solution": {
+    "$type": "BarsUp.Designer.Workspace.Elements.RmsSolution, BarsUp.Designer.Workspace",
+    "AppliedMigrations": [
+      "PermissionSingleToMultiMigration",
+      "TooltipLastUidToFullPathMigration",
+      "PublicationProfileRemoteListToSingleMigration",
+      "ModuleMenuForRoutesCacheDropMigration",
+      "ControlFilterReplaceMigration",
+      "BlocklyUidMigration",
+      "DropFormViewServiceCacheMigration",
+      "ExcelExportMigration",
+      "MobileMigration",
+      "DropListFormServiceCacheMigration",
+      "DropListServiceCacheMigration",
+      "DropMultiAddCacheMigration20210402"
+    ],
+    "AuthorizationMethods": [
+      {
+        "$type": "BarsUp.Designer.DefaultAuthorizationMethod, BarsUp.Designer.Workspace",
+        "Display": "Авторизация по-умолчанию (логин/пароль)"
+      }
+    ],
+    "CascadeDropView": false,
+    "ChangesScopeIsNotNull": false,
+    "DescriptorUid": "B4.Rms.Descriptor.Solution",
+    "DisableCacheTemplatesGeneration": false,
+    "Display": "ММК.Демо",
+    "ExtJsLabelAlign": 0,
+    "HideDesktopMenuButton": false,
+    "LogoHeight": 36,
+    "MainMenuLayoutType": 0,
+    "MobileSettings": {
+      "$type": "BarsUp.Designer.RmsMobileSettings, BarsUp.Designer.Workspace",
+      "Generate": false
+    },
+    "Name": "MMK.Demo",
+    "PublicationProfile": {
+      "$type": "BarsUp.Designer.RmsPublicationProfile, BarsUp.Designer.Workspace",
+      "CancelableBuilds": false,
+      "Configuration": {
+        "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
+        "AppSettings": [],
+        "DbName": "app_mmk.demo",
+        "DbPassword": "123",
+        "DbPort": 0,
+        "DbServer": "localhost",
+        "DbUser": "bars",
+        "IsDebug": false,
+        "Modules": []
+      },
+      "DeployTargets": [
+        {
+          "$type": "BarsUp.Designer.IisDeployConfiguration, BarsUp.Designer.Workspace",
+          "AppName": "app_mmk.demo",
+          "Configuration": {
+            "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
+            "AppSettings": [],
+            "DbPort": 0,
+            "IsDebug": false,
+            "Modules": []
+          },
+          "Display": "IIS",
+          "IisSiteName": "Default Web Site",
+          "Name": "IIS",
+          "Uid": "d150febb-6124-4a80-873c-5991437991f9",
+          "User": "WebDeploy"
+        }
+      ],
+      "DisableQueryConsole": false,
+      "Display": "Профиль публикации",
+      "EditorSaveButtons": 0,
+      "ExplicitCascadePersist": false,
+      "IisDeploy": {
+        "$type": "BarsUp.Designer.IisDeployConfiguration, BarsUp.Designer.Workspace",
+        "Configuration": {
+          "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
+          "AppSettings": [],
+          "DbPort": 0,
+          "IsDebug": false,
+          "Modules": []
+        },
+        "IisSiteName": "Default Web Site"
+      },
+      "MyGetPack": {
+        "$type": "BarsUp.Designer.RmsMyGetPackagerConfiguration, BarsUp.Designer.Workspace",
+        "ApiKey": "fd1cc3f6-578c-4a8d-8d64-9888db08a8da",
+        "Configuration": {
+          "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
+          "AppSettings": [],
+          "DbPort": 0,
+          "IsDebug": false,
+          "Modules": []
+        },
+        "Feed": "rms-projects"
+      },
+      "Name": "PublicationProfile",
+      "NginxDeploy": {
+        "$type": "BarsUp.Designer.NginxDeployConfiguration, BarsUp.Designer.Workspace",
+        "Configuration": {
+          "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
+          "AppSettings": [],
+          "DbPort": 0,
+          "IsDebug": false,
+          "Modules": []
+        }
+      },
+      "Remote": {
+        "$type": "BarsUp.Designer.Vcs.RmsElementVcs, BarsUp.Designer.Vcs",
+        "Display": "Система хранения сгенерированного приложения",
+        "Name": "MMK.Demo.App",
+        "RemoteName": "origin",
+        "RemoteUrl": "https://github.com/barsup-demo-mmk/MMK.Demo.App.git",
+        "Uid": "4a80ad65-f9e8-495a-83f2-78014311e34d",
+        "VcsManager": "1",
+        "VcsProject": "barsup-demo-mmk"
+      },
+      "Remotes": [],
+      "SeparateTotalCountRequestInRegistries": false,
+      "ShowSaveCloseButton": false,
+      "ShowTotalCount": false,
+      "Uid": "e73132b7-2401-4c76-82a2-dd748c3ae3b6",
+      "UseBufferedStoreInRegistries": false,
+      "UseHttpsRedirect": false,
+      "UseNhFutures": false,
+      "WebDeployApp": "Default Web Site\\app"
+    },
+    "PublicationTargets": [],
+    "Remote": {
+      "$type": "BarsUp.Designer.Vcs.RmsElementVcs, BarsUp.Designer.Vcs",
+      "Display": "Система хранения метаданных",
+      "Name": "MMK.Demo",
+      "RemoteName": "origin",
+      "RemoteUrl": "https://github.com/barsup-demo-mmk/MMK.Demo.git",
+      "Uid": "3c1c1d32-4c29-483d-a662-922a84f009e2",
+      "VcsManager": "1",
+      "VcsProject": "barsup-demo-mmk"
+    },
+    "Remotes": [],
+    "RmsNugetFeedSetting": [],
+    "ShowChangesScopeSelector": false,
+    "ShowCloseButtonInForms": false,
+    "Uid": "7e8d2466-c478-4d52-9732-0321cde855ca",
+    "ValidateFormElementsByTargetUid": false
+  },
   "Uid": "f9b0886a-2921-467f-a9dd-03b52ec536cf"
 }

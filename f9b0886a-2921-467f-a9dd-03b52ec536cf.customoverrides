@@ -95,7 +95,7 @@
       "DeployTargets": [
         {
           "$type": "BarsUp.Designer.IisDeployConfiguration, BarsUp.Designer.Workspace",
-          "AppName": "app_mmk.demo",
+          "AppName": "mmk_demo",
           "Configuration": {
             "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
             "AppSettings": [],

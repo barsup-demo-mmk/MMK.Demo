@@ -3,9 +3,9 @@
     "Серверный код": {
       "CustomFilesCount": 10,
       "CustomLinesCount": 251,
-      "FilesRate": 9,
-      "GeneratedFilesCount": 91,
-      "GeneratedLinesCount": 5202,
+      "FilesRate": 8,
+      "GeneratedFilesCount": 81,
+      "GeneratedLinesCount": 5068,
       "LinesRate": 20
     },
     "Браузерный код": {
@@ -144,7 +144,7 @@
     },
     "Список": {
       "Count": 0,
-      "IconCls": "fm-table2"
+      "IconCls": "fas fa-list-alt"
     },
     "Статический класс (JS)": {
       "Count": 0,

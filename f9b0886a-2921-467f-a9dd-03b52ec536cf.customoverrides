@@ -105,7 +105,7 @@
             "Modules": []
           },
           "Display": "IIS",
-          "Host": "rms.bars.group",
+          "Host": "localhost",
           "IisSiteName": "Applications",
           "IisWebDeployPort": 5000,
           "Name": "IIS",

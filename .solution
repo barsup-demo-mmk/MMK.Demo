@@ -99,7 +99,6 @@
         "Display": "IIS",
         "Host": "localhost",
         "IisSiteName": "Applications",
-        "IisWebDeployPort": 5000,
         "Name": "IIS",
         "Password": "yqzGAHWUKyjfX4Nd",
         "Uid": "d150febb-6124-4a80-873c-5991437991f9",

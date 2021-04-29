@@ -1,0 +1,11 @@
+﻿{
+  "$type": "BarsUp.Designer.Data.Entity, BarsUp.Designer.Data",
+  "BaseType": "BarsUp.DataAccess.BaseEntity, BarsUp.Abstractions.DataAccess",
+  "DescriptorUid": "B4.Rms.Descriptor.Entity",
+  "Display": "НПА",
+  "Indices": [],
+  "Name": "Npa",
+  "NameForDatabase": "NPA",
+  "SubclassKind": 1,
+  "Uid": "ade91cdf-e3cb-4674-a2e8-69a7887fea50"
+}

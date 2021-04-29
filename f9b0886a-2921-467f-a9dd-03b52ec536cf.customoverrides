@@ -1,0 +1,8 @@
+﻿{
+  "$type": "BarsUp.Designer.Elements.CustomOverrides, BarsUp.Designer",
+  "DescriptorUid": "B4.Rms.Descriptor.CustomOverrides",
+  "Display": "Кастомные переопределения",
+  "IsHidden": true,
+  "Name": "CustomOverrides",
+  "Uid": "f9b0886a-2921-467f-a9dd-03b52ec536cf"
+}

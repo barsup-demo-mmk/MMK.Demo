@@ -108,7 +108,7 @@
     "DeployTargetUid": "d150febb-6124-4a80-873c-5991437991f9",
     "DisableQueryConsole": false,
     "Display": "Профиль публикации",
-    "EditorSaveButtons": 0,
+    "EditorSaveButtons": 1,
     "ExplicitCascadePersist": true,
     "IisDeploy": {
       "$type": "BarsUp.Designer.IisDeployConfiguration, BarsUp.Designer.Workspace",

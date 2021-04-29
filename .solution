@@ -15,6 +15,10 @@
   "ExtJsLabelAlign": 0,
   "HideDesktopMenuButton": false,
   "MainMenuLayoutType": 0,
+  "MobileSettings": {
+    "$type": "BarsUp.Designer.RmsMobileSettings, BarsUp.Designer.Workspace",
+    "Generate": false
+  },
   "Name": "MMK.Demo",
   "PublicationProfile": {
     "$type": "BarsUp.Designer.RmsPublicationProfile, BarsUp.Designer.Workspace",

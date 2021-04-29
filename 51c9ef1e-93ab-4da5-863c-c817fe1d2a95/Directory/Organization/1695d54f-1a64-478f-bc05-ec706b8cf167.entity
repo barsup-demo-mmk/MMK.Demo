@@ -3,9 +3,251 @@
   "BaseType": "BarsUp.DataAccess.BaseEntity, BarsUp.Abstractions.DataAccess",
   "DescriptorUid": "B4.Rms.Descriptor.Entity",
   "Display": "Организация",
+  "Elements": [
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Краткое наименование",
+      "FieldType": "System.String, System.Runtime",
+      "IsVirtual": false,
+      "Name": "ShortName",
+      "Uid": "6050936c-a822-424d-ba95-0b0f95e2d217",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldIsUniqueAttribute, BarsUp.Designer.Core",
+          "IsUnique": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldLengthAttribute, BarsUp.Designer.Core",
+          "Length": 0
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbIsTextBlobAttribute, BarsUp.Designer.Core",
+          "IsTextBlob": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbStringDefaultValueAttribute, BarsUp.Designer.Core"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.IgnoreClientTimezoneAttribute, BarsUp.Designer.Data",
+          "Value": true
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Полное наименование",
+      "FieldType": "System.String, System.Runtime",
+      "IsVirtual": false,
+      "Name": "FullName",
+      "Uid": "dce240bf-96c8-4159-a47f-abdbd61c8050",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldIsUniqueAttribute, BarsUp.Designer.Core",
+          "IsUnique": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldLengthAttribute, BarsUp.Designer.Core",
+          "Length": 0
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbIsTextBlobAttribute, BarsUp.Designer.Core",
+          "IsTextBlob": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbStringDefaultValueAttribute, BarsUp.Designer.Core"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.IgnoreClientTimezoneAttribute, BarsUp.Designer.Data",
+          "Value": true
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "ИНН",
+      "FieldType": "System.Int32, System.Runtime",
+      "IsVirtual": false,
+      "Name": "INN",
+      "Uid": "2dcd28f3-8794-407d-a93c-3e1faf2dee05",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldIsUniqueAttribute, BarsUp.Designer.Core",
+          "IsUnique": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbInt64DefaultValueAttribute, BarsUp.Designer.Core"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.IgnoreClientTimezoneAttribute, BarsUp.Designer.Data",
+          "Value": true
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.PropertySequenceAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "КПП",
+      "FieldType": "System.Int32, System.Runtime",
+      "IsVirtual": false,
+      "Name": "Kpp",
+      "Uid": "99f617b7-2459-4bb1-aca8-a6d884b19a8b",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldIsUniqueAttribute, BarsUp.Designer.Core",
+          "IsUnique": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbInt64DefaultValueAttribute, BarsUp.Designer.Core"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.IgnoreClientTimezoneAttribute, BarsUp.Designer.Data",
+          "Value": true
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.PropertySequenceAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "ОГРН",
+      "FieldType": "System.Int32, System.Runtime",
+      "IsVirtual": false,
+      "Name": "Ogrn",
+      "Uid": "3850ca3a-4a31-4c38-b7d4-b0a78974f6cb",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldIsUniqueAttribute, BarsUp.Designer.Core",
+          "IsUnique": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbInt64DefaultValueAttribute, BarsUp.Designer.Core"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.IgnoreClientTimezoneAttribute, BarsUp.Designer.Data",
+          "Value": true
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.PropertySequenceAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Фактический адрес",
+      "FieldType": "BarsUp.Modules.Fias.FiasAddress, BarsUp.Modules.Fias",
+      "IsVirtual": false,
+      "Name": "FactAdress",
+      "Uid": "84cd21eb-af31-45b8-8434-900102f53edf",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Юридический адрес ",
+      "FieldType": "BarsUp.Modules.Fias.FiasAddress, BarsUp.Modules.Fias",
+      "IsVirtual": false,
+      "Name": "LegalAddress",
+      "Uid": "fda8ef70-9d47-41b0-88a3-b772ad6964da",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    }
+  ],
+  "Events": [],
   "Indices": [],
   "Name": "Organization",
   "NameForDatabase": "ORGANIZATION",
   "SubclassKind": 1,
-  "Uid": "1695d54f-1a64-478f-bc05-ec706b8cf167"
+  "Uid": "1695d54f-1a64-478f-bc05-ec706b8cf167",
+  "Attributes": [
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityBpmnDrivenAttribute, BarsUp.Designer.Data",
+      "Enabled": false
+    },
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityRecordDescriptionAttribute, BarsUp.Designer.Data"
+    },
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityRegisterAuthorAttribute, BarsUp.Designer.Data",
+      "Value": false
+    }
+  ]
 }

@@ -36,25 +36,39 @@
     "ExtJsLabelAlign": 0,
     "HideDesktopMenuButton": false,
     "LogoHeight": 36,
-    "MainMenuLayoutType": 0,
+    "MainMenuLayoutType": 5,
     "MobileSettings": {
       "$type": "BarsUp.Designer.RmsMobileSettings, BarsUp.Designer.Workspace",
+      "Display": "Мобильное приложение",
       "Generate": false
     },
     "Name": "MMK.Demo",
     "PublicationProfile": {
       "$type": "BarsUp.Designer.RmsPublicationProfile, BarsUp.Designer.Workspace",
-      "CancelableBuilds": false,
+      "CancelableBuilds": true,
       "Configuration": {
         "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
         "AppSettings": [],
         "DbName": "app_mmk.demo",
         "DbPassword": "123",
-        "DbPort": 0,
+        "DbPort": 5432,
         "DbServer": "localhost",
         "DbUser": "bars",
-        "IsDebug": false,
-        "Modules": []
+        "Display": "Конфигурация приложения",
+        "IsDebug": true,
+        "Modules": [
+          {
+            "$type": "BarsUp.Designer.RmsPublicationProfileModuleConfig, BarsUp.Designer.Workspace",
+            "Display": "BarsUp.Modules.PostgreSql",
+            "Elements": [
+              {
+                "$type": "BarsUp.Designer.RmsAppSettingsElement, BarsUp.Designer.Workspace",
+                "Display": "ForeignServers",
+                "Value": "{}"
+              }
+            ]
+          }
+        ]
       },
       "DeployTargets": [
         {
@@ -63,21 +77,25 @@
           "Configuration": {
             "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
             "AppSettings": [],
-            "DbPort": 0,
+            "DbPort": 5432,
+            "Display": "Конфигурация приложения",
             "IsDebug": false,
             "Modules": []
           },
           "Display": "IIS",
+          "Host": "rms.bars.group",
           "IisSiteName": "Default Web Site",
           "Name": "IIS",
+          "Password": "yqzGAHWUKyjfX4Nd",
           "Uid": "d150febb-6124-4a80-873c-5991437991f9",
           "User": "WebDeploy"
         }
       ],
+      "DeployTargetUid": "d150febb-6124-4a80-873c-5991437991f9",
       "DisableQueryConsole": false,
       "Display": "Профиль публикации",
       "EditorSaveButtons": 0,
-      "ExplicitCascadePersist": false,
+      "ExplicitCascadePersist": true,
       "IisDeploy": {
         "$type": "BarsUp.Designer.IisDeployConfiguration, BarsUp.Designer.Workspace",
         "Configuration": {
@@ -124,12 +142,12 @@
       },
       "Remotes": [],
       "SeparateTotalCountRequestInRegistries": false,
-      "ShowSaveCloseButton": false,
+      "ShowSaveCloseButton": true,
       "ShowTotalCount": false,
       "Uid": "e73132b7-2401-4c76-82a2-dd748c3ae3b6",
       "UseBufferedStoreInRegistries": false,
       "UseHttpsRedirect": false,
-      "UseNhFutures": false,
+      "UseNhFutures": true,
       "WebDeployApp": "Default Web Site\\app"
     },
     "PublicationTargets": [],
@@ -147,6 +165,7 @@
     "RmsNugetFeedSetting": [],
     "ShowChangesScopeSelector": false,
     "ShowCloseButtonInForms": false,
+    "ThemeTypeReference": "9c72a87d-26cd-4b2d-9091-b34d6d75edf6",
     "Uid": "7e8d2466-c478-4d52-9732-0321cde855ca",
     "ValidateFormElementsByTargetUid": false
   },

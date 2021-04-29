@@ -50,17 +50,6 @@
       "Modules": [
         {
           "$type": "BarsUp.Designer.RmsPublicationProfileModuleConfig, BarsUp.Designer.Workspace",
-          "Display": "BarsUp.Modules.PostgreSql",
-          "Elements": [
-            {
-              "$type": "BarsUp.Designer.RmsAppSettingsElement, BarsUp.Designer.Workspace",
-              "Display": "ForeignServers",
-              "Value": "{}"
-            }
-          ]
-        },
-        {
-          "$type": "BarsUp.Designer.RmsPublicationProfileModuleConfig, BarsUp.Designer.Workspace",
           "Display": "BarsUp.UI.ExtJs",
           "Elements": [
             {
@@ -69,6 +58,13 @@
               "Value": "Light"
             }
           ]
+        },
+        {
+          "$type": "BarsUp.Designer.RmsPublicationProfileModuleConfig, BarsUp.Designer.Workspace",
+          "Description": "Модуль для построения файлового хранилища, используя для хранения файловую систему",
+          "Display": "BarsUp.Modules.FileSystemStorage",
+          "Name": "RmsPublicationProfileModuleConfig1619717838196",
+          "Uid": "71c470d1-ada4-4066-8e6a-961be52ca0a9"
         }
       ]
     },

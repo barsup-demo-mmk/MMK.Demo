@@ -1,0 +1,11 @@
+﻿{
+  "$type": "BarsUp.Designer.Workspace.Elements.RmsModule, BarsUp.Designer.Workspace",
+  "Config": [],
+  "DescriptorUid": "B4.Rms.Descriptor.Module",
+  "Display": "ММК.Демо",
+  "Name": "MMKDemo",
+  "Namespace": "Bars.MMKDemo",
+  "Packages": [],
+  "References": [],
+  "Uid": "51c9ef1e-93ab-4da5-863c-c817fe1d2a95"
+}

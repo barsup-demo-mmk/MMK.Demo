@@ -1,12 +1,12 @@
 ﻿{
   "Code": {
     "Серверный код": {
-      "CustomFilesCount": 10,
-      "CustomLinesCount": 251,
-      "FilesRate": 9,
-      "GeneratedFilesCount": 91,
-      "GeneratedLinesCount": 5247,
-      "LinesRate": 20
+      "CustomFilesCount": 4,
+      "CustomLinesCount": 172,
+      "FilesRate": 18,
+      "GeneratedFilesCount": 75,
+      "GeneratedLinesCount": 4961,
+      "LinesRate": 28
     },
     "Браузерный код": {
       "CustomFilesCount": 0,

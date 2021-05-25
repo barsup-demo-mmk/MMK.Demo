@@ -1,20 +1,20 @@
 ﻿{
   "Code": {
     "Серверный код": {
-      "CustomFilesCount": 4,
-      "CustomLinesCount": 172,
-      "FilesRate": 18,
-      "GeneratedFilesCount": 75,
-      "GeneratedLinesCount": 4961,
-      "LinesRate": 28
+      "CustomFilesCount": 0,
+      "CustomLinesCount": 0,
+      "FilesRate": 1,
+      "GeneratedFilesCount": 0,
+      "GeneratedLinesCount": 0,
+      "LinesRate": 1
     },
     "Браузерный код": {
       "CustomFilesCount": 0,
       "CustomLinesCount": 0,
-      "FilesRate": 61,
-      "GeneratedFilesCount": 61,
-      "GeneratedLinesCount": 4338,
-      "LinesRate": 4338
+      "FilesRate": 1,
+      "GeneratedFilesCount": 0,
+      "GeneratedLinesCount": 0,
+      "LinesRate": 1
     },
     "СУБД": {
       "CustomFilesCount": 0,

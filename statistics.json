@@ -144,7 +144,7 @@
     },
     "Список": {
       "Count": 0,
-      "IconCls": "fas fa-list-alt"
+      "IconCls": "fm-table2"
     },
     "Статический класс (JS)": {
       "Count": 0,
